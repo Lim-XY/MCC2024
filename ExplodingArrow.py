@@ -49,6 +49,7 @@ def test_power(power):
     # print(targets)
     return max(targets) <= 0
 
+# these values don't really work btw I just add some random multiply and divide for different tasks
 min_multiplier = int(max(TARGETS) / MULTIPLIER / TOTAL_ARROWS) // 4
 max_multiplier = ((max(TARGETS) + len(TARGETS)**2) * TOTAL_ARROWS)
 
